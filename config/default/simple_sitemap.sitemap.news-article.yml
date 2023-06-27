@@ -1,0 +1,13 @@
+uuid: f1746d55-8f61-40b3-a141-cc3133318e74
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_sitemap.type.default_hreflang
+_core:
+  default_config_hash: P0ttL307D1r0JRwt9WBt6OLpo130uOH4MZKgCBgpHr0
+id: news-article
+label: 'News Article'
+description: ''
+type: default_hreflang
+weight: 0

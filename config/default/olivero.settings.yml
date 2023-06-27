@@ -1,0 +1,20 @@
+_core:
+  default_config_hash: BEKcFX2hBEOxcZnq2hJHFKTZV4yYX2EkrFHO9YQgNG4
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: profiles/contrib/thunder/files/favicon.ico
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: false
+logo:
+  path: profiles/contrib/thunder/files/images/logo.svg
+  use_default: false
+third_party_settings:
+  shortcut:
+    module_link: true
+mobile_menu_all_widths: 0
+site_branding_bg_color: default
+base_primary_color: '#112E51'

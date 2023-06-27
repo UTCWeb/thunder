@@ -1,0 +1,78 @@
+uuid: 556fe7d3-56ee-4393-af05-8d9e4b0aba67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.image.field_copyright
+    - field.field.media.image.field_description
+    - field.field.media.image.field_expires
+    - field.field.media.image.field_image
+    - field.field.media.image.field_source
+    - field.field.media.image.field_tags
+    - image.style.media_image
+    - media.type.image
+  module:
+    - blazy
+    - empty_fields
+_core:
+  default_config_hash: k6qYgmAraB3iPtmy-Zw0nLiZ2oXaptVs8L9dF5ye7ZI
+id: media.image.default
+targetEntityType: media
+bundle: image
+mode: default
+content:
+  field_copyright:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: blazy
+    label: hidden
+    settings:
+      caption:
+        title: '0'
+        alt: '0'
+      layout: ''
+      view_mode: ''
+      cache: 0
+      skin: ''
+      lazy: ''
+      style: ''
+      background: false
+      box_caption: ''
+      box_caption_custom: ''
+      box_media_style: ''
+      loading: ''
+      preload: false
+      responsive_image_style: ''
+      box_style: ''
+      image_style: media_image
+      media_switch: ''
+      ratio: ''
+      thumbnail_style: ''
+      grid: ''
+      grid_medium: ''
+      grid_small: ''
+    third_party_settings:
+      empty_fields:
+        handler: ''
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_brands: true
+  field_channel: true
+  field_description: true
+  field_events: true
+  field_expires: true
+  field_people: true
+  field_source: true
+  field_tags: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

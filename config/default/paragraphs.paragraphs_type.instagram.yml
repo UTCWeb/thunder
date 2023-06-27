@@ -1,0 +1,12 @@
+uuid: 381e7514-56c1-4987-8273-8ce59e175f84
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _xKuGryKAPx1_ThAzHSvZsJwFRh8lwmRrHpb223pfOs
+id: instagram
+label: Instagram
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

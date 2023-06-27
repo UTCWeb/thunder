@@ -1,0 +1,28 @@
+_core:
+  default_config_hash: QD7mf6Ah3RHr4CVd_5EealYnQsA0_1QClGtin_bK9d8
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: profiles/contrib/thunder/files/favicon.ico
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: profiles/contrib/thunder/files/images/thunder.svg
+  use_default: false
+third_party_settings:
+  shortcut:
+    module_link: true
+preset_accent_color: custom
+preset_focus_color: custom
+enable_darkmode: '0'
+classic_toolbar: horizontal
+secondary_toolbar_frontend: true
+high_contrast_mode: false
+accent_color: '#205493'
+focus_color: '#339900'
+layout_density: small
+show_description_toggle: true
+show_user_theme_settings: true

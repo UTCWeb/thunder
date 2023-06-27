@@ -1,0 +1,12 @@
+uuid: be60c4e5-7fed-40de-a6c4-9549bfea3a07
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: ZdDXZOLcaP6d_3nTv42qCLprRG2a90hzvl_QRFuDN8U
+id: media.paragraph_preview
+label: 'Paragraph preview'
+targetEntityType: media
+cache: true

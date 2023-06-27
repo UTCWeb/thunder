@@ -1,0 +1,13 @@
+uuid: 8daece23-c99c-412d-8ede-e7d442cad36f
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_sitemap.type.default_hreflang
+_core:
+  default_config_hash: V8zX8iQkqdt3s-M_wsvum-AuFX7bYBoOqaErr_Odlys
+id: article
+label: Article
+description: ''
+type: default_hreflang
+weight: -10

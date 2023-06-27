@@ -1,0 +1,29 @@
+uuid: 5972dcfe-16d6-4ab6-a90e-f75f0b0dbe38
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - access_unpublished
+    - filter
+    - media
+    - system
+    - thunder_taxonomy
+_core:
+  default_config_hash: epAbaVlUYemhAWmlaxLPnmLZlb_I11jFH9nLFodNNQg
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access user profiles'
+  - 'access_unpublished node article'
+  - 'access_unpublished node news_article'
+  - 'cancel account'
+  - 'change own username'
+  - 'use text format basic_html'
+  - 'view media'
+  - 'view published terms in channel'
+  - 'view published terms in tags'

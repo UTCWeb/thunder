@@ -1,0 +1,21 @@
+uuid: bec89b62-5fbf-4e30-b420-b315f6caea24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_source
+    - media.type.video
+_core:
+  default_config_hash: seLx2CYivuMnBHfsaphodgNcPOAzB6aoam5ujwBqaNA
+id: media.video.field_source
+field_name: field_source
+entity_type: media
+bundle: video
+label: Source
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

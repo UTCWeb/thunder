@@ -1,0 +1,13 @@
+uuid: 28a1defb-4cd5-4911-a097-2d056297c2dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_sitemap.type.default_hreflang
+_core:
+  default_config_hash: TVX_tVknieo4_aaKQaRysdp3ragx8rmfTcubSB3alY8
+id: basic
+label: Basic
+description: ''
+type: default_hreflang
+weight: -9

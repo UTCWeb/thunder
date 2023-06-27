@@ -1,0 +1,33 @@
+uuid: 80b953af-43c4-4335-ac90-cff7564f7f72
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - scheduler
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: true
+    publish_past_date: schedule
+    publish_past_date_created: false
+    publish_required: false
+    publish_revision: false
+    publish_touch: true
+    show_message_after_update: true
+    unpublish_enable: true
+    unpublish_required: false
+    unpublish_revision: false
+_core:
+  default_config_hash: 7JC77zMlcPPi3r4CdBMDfGNMfj-6lEj2d6_qGRYFqFA
+name: 'News Article'
+type: news_article
+description: 'Use <em>news articles</em> for time-sensitive content like news, press releases or blog posts.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,12 @@
+uuid: 96abbbd6-97c5-4d0e-9204-f91ccb24cbcd
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: RPyw1vpH9EqlzsHSN3vqFMguFl_jVaaGbn_ZBmAzNfM
+id: media.override
+label: Override
+targetEntityType: media
+cache: true

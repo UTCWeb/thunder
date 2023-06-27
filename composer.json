@@ -1,24 +1,12 @@
 {
-    "name": "thunder/thunder-project",
+    "name": "utchattanooga/utccloud",
     "description": "Project template for Thunder projects with composer",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "Daniel Bosen",
-            "email": "daniel.bosen@burda.com"
-        },
-        {
-            "name": "Christian Fritsch",
-            "email": "christian.fritsch@burda.com"
-        },
-        {
-            "name": "Alex Pott",
-            "email": "alex.a.pott@gmail.com"
-        },
-        {
-            "name": "Volker Killesreiter",
-            "email": "volker.killesreiter@burda.com"
+            "name": "Chris Gilligan",
+            "email": "chris-gilligan@utc.edu"
         }
     ],
     "repositories": [
@@ -32,8 +20,12 @@
         }
     ],
     "require": {
-        "acquia/blt": "*",
+        "php": ">=8.1",
+        "acquia/blt": "^13.7",
+        "acquia/blt-travis": "^1.1",
         "composer/installers": "^1.2",
+        "drupal/acquia_connector": "^4.0",
+        "drupal/acquia_purge": "^1.3",
         "drupal/core-composer-scaffold": "^10.0",
         "drush/drush": "^11.0",
         "oomphinc/composer-installers-extender": "^2.0",
