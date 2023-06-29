@@ -167,5 +167,8 @@
             "wikimedia/composer-merge-plugin": true,
             "mglaman/composer-drupal-lenient": true
         }
+    },
+    "drupal-lenient": {
+        "allowed-list": ["drupal/superfish"]
     }
 }
