@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b20902821bf538ce4d6ff676dea3731",
+    "content-hash": "2fd1c7b771b7e6e0c7a472d62b884ec5",
     "packages": [
         {
             "name": "acquia/blt",
@@ -2366,6 +2366,50 @@
             }
         },
         {
+            "name": "drupal/block_list_override",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/block_list_override.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/block_list_override-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "f1ae936cc5e4748d511ee0a7a6025337b135db56"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1594592703",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "KarenS",
+                    "homepage": "https://www.drupal.org/user/45874"
+                }
+            ],
+            "description": "Remove unnecessary blocks from the block list for better system performance.",
+            "homepage": "https://www.drupal.org/project/block_list_override",
+            "support": {
+                "source": "https://git.drupalcode.org/project/block_list_override"
+            }
+        },
+        {
             "name": "drupal/block_visibility_groups",
             "version": "2.0.1",
             "source": {
@@ -2886,6 +2930,59 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/ckeditor_codemirror",
                 "issues": "https://www.drupal.org/project/issues/ckeditor_codemirror"
+            }
+        },
+        {
+            "name": "drupal/ckeditor_liststyle",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ckeditor_liststyle.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_liststyle-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "858f441c4603dd2925474f96b53f38d8b5174b9d"
+            },
+            "require": {
+                "drupal/ckeditor": "*",
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1590275787",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Osman Gormus",
+                    "homepage": "https://www.drupal.org/u/osman",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "This plugin adds numbered list and ordered list properties dialogs (available in context menu) in CKEditor.",
+            "homepage": "http://drupal.org/project/ckeditor_liststyle",
+            "keywords": [
+                "Drupal",
+                "ckeditor",
+                "list",
+                "list-style"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/ckeditor_liststyle",
+                "issues": "https://www.drupal.org/project/issues/ckeditor_liststyle"
             }
         },
         {
@@ -23774,6 +23871,8 @@
         "drupal/cas_attributes": 10,
         "drupal/ckeditor_bootstrap_buttons": 20,
         "drupal/ckeditor_codemirror": 10,
+        "drupal/ckeditor_liststyle": 20,
+        "drupal/cloudflare": 15,
         "drupal/components": 10,
         "drupal/config_split": 5,
         "drupal/context": 5,
