@@ -98,6 +98,7 @@
         "drupal/smart_trim": "^2.1",
         "drupal/social_media_links": "^2.9",
         "drupal/stage_file_proxy": "^2.0",
+        "drupal/superfish": "^1.4",
         "drupal/svg_image": "^3.0",
         "drupal/tablefield": "^2.4",
         "drupal/twig_field_value": "^2.0",
@@ -149,13 +150,16 @@
         "enable-patching": true,
         "patches": {
             "drupal/superfish": {
-                "drupal-10-compatibility": "https://www.drupal.org/files/issues/2023-01-18/3299991-drupal-10-compatibility-fixes-7.patch"
+                "drupal-10-compatibility": "https://www.drupal.org/files/issues/2023-05-17/superfish-d10-compatibility-15053339-9.patch"
             }
         },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "docroot/"
             }
+        },
+        "drupal-lenient": {
+            "allowed-list": ["drupal/superfish"]
         }
     },
     "config": {
@@ -172,8 +176,5 @@
             "wikimedia/composer-merge-plugin": true,
             "mglaman/composer-drupal-lenient": true
         }
-    },
-    "drupal-lenient": {
-        "allowed-list": ["drupal/superfish"]
     }
 }
