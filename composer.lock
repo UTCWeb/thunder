@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fd1c7b771b7e6e0c7a472d62b884ec5",
+    "content-hash": "de165a730838e1f2b57f5ca259154374",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1834,99 +1834,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
-            }
-        },
-        {
-            "name": "drupal/advancedqueue",
-            "version": "1.0.0-rc7",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/advancedqueue.git",
-                "reference": "8.x-1.0-rc7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/advancedqueue-8.x-1.0-rc7.zip",
-                "reference": "8.x-1.0-rc7",
-                "shasum": "b446eda22f5f9a9d13f78f2ce329ff1feef69173"
-            },
-            "require": {
-                "drupal/core": "^9.1 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.0-rc7",
-                    "datestamp": "1673456946",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^11"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "amitaibu",
-                    "homepage": "https://www.drupal.org/user/57511"
-                },
-                {
-                    "name": "bojanz",
-                    "homepage": "https://www.drupal.org/user/86106"
-                },
-                {
-                    "name": "Damien Tournoud",
-                    "homepage": "https://www.drupal.org/user/22211"
-                },
-                {
-                    "name": "dawehner",
-                    "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "jcnventura",
-                    "homepage": "https://www.drupal.org/user/122464"
-                },
-                {
-                    "name": "jsacksick",
-                    "homepage": "https://www.drupal.org/user/972218"
-                },
-                {
-                    "name": "Kazanir",
-                    "homepage": "https://www.drupal.org/user/2279698"
-                },
-                {
-                    "name": "laurentchardin",
-                    "homepage": "https://www.drupal.org/user/87775"
-                },
-                {
-                    "name": "mglaman",
-                    "homepage": "https://www.drupal.org/user/2416470"
-                },
-                {
-                    "name": "pjcdawkins",
-                    "homepage": "https://www.drupal.org/user/1025236"
-                },
-                {
-                    "name": "rszrama",
-                    "homepage": "https://www.drupal.org/user/49344"
-                },
-                {
-                    "name": "skipyT",
-                    "homepage": "https://www.drupal.org/user/350126"
-                }
-            ],
-            "description": "Provides a better Queue API.",
-            "homepage": "https://www.drupal.org/project/advancedqueue",
-            "support": {
-                "source": "https://git.drupalcode.org/project/advancedqueue"
             }
         },
         {
@@ -4402,83 +4309,6 @@
             }
         },
         {
-            "name": "drupal/default_content",
-            "version": "2.0.0-alpha2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/default_content.git",
-                "reference": "2.0.0-alpha2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/default_content-2.0.0-alpha2.zip",
-                "reference": "2.0.0-alpha2",
-                "shasum": "5c365ea21b0be63dc00ec2db50179291d6fb3d89"
-            },
-            "require": {
-                "drupal/core": "^9.1 || ^10"
-            },
-            "require-dev": {
-                "drupal/hal": " ^9 || ^1 || ^2",
-                "drupal/paragraphs": "^1"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.0-alpha2",
-                    "datestamp": "1659466706",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9 || ^10 || ^11"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "andypost",
-                    "homepage": "https://www.drupal.org/user/118908"
-                },
-                {
-                    "name": "benjy",
-                    "homepage": "https://www.drupal.org/user/1852732"
-                },
-                {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
-                    "name": "dawehner",
-                    "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "jibran",
-                    "homepage": "https://www.drupal.org/user/1198144"
-                },
-                {
-                    "name": "larowlan",
-                    "homepage": "https://www.drupal.org/user/395439"
-                },
-                {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
-                }
-            ],
-            "description": "Imports default content when a module is enabled",
-            "homepage": "https://www.drupal.org/project/default_content",
-            "support": {
-                "source": "https://git.drupalcode.org/project/default_content"
-            }
-        },
-        {
             "name": "drupal/diff",
             "version": "1.1.0",
             "source": {
@@ -6288,76 +6118,6 @@
             }
         },
         {
-            "name": "drupal/graphql",
-            "version": "4.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/graphql.git",
-                "reference": "8.x-4.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/graphql-8.x-4.5.zip",
-                "reference": "8.x-4.5",
-                "shasum": "2f08a45f51ffba915fabeba9d6ecde90f1406c98"
-            },
-            "require": {
-                "drupal/core": "^9.3 || ^10",
-                "drupal/typed_data": "*",
-                "php": ">=7.3",
-                "webonyx/graphql-php": "^14.8.0"
-            },
-            "require-dev": {
-                "drupal/node-node": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-4.5",
-                    "datestamp": "1681744536",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "fubhy",
-                    "homepage": "https://www.drupal.org/user/761344"
-                },
-                {
-                    "name": "hideaway",
-                    "homepage": "https://www.drupal.org/user/741876"
-                },
-                {
-                    "name": "joaogarin",
-                    "homepage": "https://www.drupal.org/user/612814"
-                },
-                {
-                    "name": "Kingdutch",
-                    "homepage": "https://www.drupal.org/user/1868952"
-                },
-                {
-                    "name": "klausi",
-                    "homepage": "https://www.drupal.org/user/262198"
-                },
-                {
-                    "name": "pmelab",
-                    "homepage": "https://www.drupal.org/user/555322"
-                }
-            ],
-            "description": "Exposes your Drupal data model through a GraphQL schema.",
-            "homepage": "http://drupal.org/project/graphql",
-            "support": {
-                "source": "https://git.drupalcode.org/project/graphql"
-            }
-        },
-        {
             "name": "drupal/gtranslate",
             "version": "3.0.1",
             "source": {
@@ -6560,62 +6320,6 @@
             "homepage": "https://www.drupal.org/project/inline_entity_form",
             "support": {
                 "source": "https://git.drupalcode.org/project/inline_entity_form"
-            }
-        },
-        {
-            "name": "drupal/ivw_integration",
-            "version": "2.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/ivw_integration.git",
-                "reference": "8.x-2.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ivw_integration-8.x-2.5.zip",
-                "reference": "8.x-2.5",
-                "shasum": "97f5215b0bef3c8dddb0d86267d95b84e07b7410"
-            },
-            "require": {
-                "drupal/core": "^9.2 || ^10",
-                "drupal/token": "^1.11"
-            },
-            "require-dev": {
-                "burdamagazinorg/thunder-dev-tools": "dev-master"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-2.5",
-                    "datestamp": "1667212180",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "chr.fritsch",
-                    "homepage": "https://www.drupal.org/user/2103716"
-                },
-                {
-                    "name": "daniel.bosen",
-                    "homepage": "https://www.drupal.org/user/404865"
-                },
-                {
-                    "name": "thunderbot",
-                    "homepage": "https://www.drupal.org/user/3511180"
-                }
-            ],
-            "description": "IVW Integration",
-            "homepage": "https://www.drupal.org/project/ivw_integration",
-            "support": {
-                "source": "https://git.drupalcode.org/project/ivw_integration"
             }
         },
         {
@@ -9157,71 +8861,6 @@
             }
         },
         {
-            "name": "drupal/password_policy",
-            "version": "4.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/password_policy.git",
-                "reference": "4.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/password_policy-4.0.0.zip",
-                "reference": "4.0.0",
-                "shasum": "ed55a1441bc7fad0dcb0aea7d2bfecc88a156c83"
-            },
-            "require": {
-                "drupal/core": "^9.1 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "4.0.0",
-                    "datestamp": "1668191689",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "AohRveTPV",
-                    "homepage": "https://www.drupal.org/user/2760115"
-                },
-                {
-                    "name": "deekayen",
-                    "homepage": "https://www.drupal.org/user/972"
-                },
-                {
-                    "name": "miglius",
-                    "homepage": "https://www.drupal.org/user/18741"
-                },
-                {
-                    "name": "nerdstein",
-                    "homepage": "https://www.drupal.org/user/1557710"
-                },
-                {
-                    "name": "paulocs",
-                    "homepage": "https://www.drupal.org/user/3640109"
-                },
-                {
-                    "name": "shrop",
-                    "homepage": "https://www.drupal.org/user/14767"
-                }
-            ],
-            "description": "Sets up constraints and expiration of passwords.",
-            "homepage": "https://www.drupal.org/project/password_policy",
-            "support": {
-                "source": "https://git.drupalcode.org/project/password_policy",
-                "issues": "https://www.drupal.org/project/issues/password_policy"
-            }
-        },
-        {
             "name": "drupal/pathauto",
             "version": "1.11.0",
             "source": {
@@ -11048,60 +10687,6 @@
             }
         },
         {
-            "name": "drupal/typed_data",
-            "version": "1.0.0-beta2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/typed_data.git",
-                "reference": "8.x-1.0-beta2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-beta2.zip",
-                "reference": "8.x-1.0-beta2",
-                "shasum": "e0aa651b129d8dcd765ca49cba8682ebe09e6e73"
-            },
-            "require": {
-                "drupal/core": "^9.1 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.0-beta2",
-                    "datestamp": "1679429196",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": ">=9"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "fago",
-                    "homepage": "https://www.drupal.org/user/16747"
-                },
-                {
-                    "name": "TR",
-                    "homepage": "https://www.drupal.org/user/202830"
-                }
-            ],
-            "description": "Extends the core Typed Data API with new APIs and features.",
-            "homepage": "https://www.drupal.org/project/typed_data",
-            "support": {
-                "source": "https://git.drupalcode.org/project/typed_data",
-                "issues": "https://www.drupal.org/project/issues/typed_data"
-            }
-        },
-        {
             "name": "drupal/ultimate_cron",
             "version": "2.0.0-alpha6",
             "source": {
@@ -11250,77 +10835,6 @@
             "homepage": "https://www.drupal.org/project/update_helper",
             "support": {
                 "source": "https://git.drupalcode.org/project/update_helper"
-            }
-        },
-        {
-            "name": "drupal/vgwort",
-            "version": "2.0.0-beta5",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/vgwort.git",
-                "reference": "2.0.0-beta5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/vgwort-2.0.0-beta5.zip",
-                "reference": "2.0.0-beta5",
-                "shasum": "a45b94071dca283a73bbd106e9b56970be36041f"
-            },
-            "require": {
-                "drupal/advancedqueue": "^1.0@RC",
-                "drupal/core": "^9 || ^10",
-                "php": ">=7.4.0"
-            },
-            "require-dev": {
-                "drupal/graphql": "^4.4",
-                "drush/drush": "^11.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.0-beta5",
-                    "datestamp": "1685529350",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^11"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "alexpott",
-                    "homepage": "https://www.drupal.org/user/157725"
-                },
-                {
-                    "name": "chr.fritsch",
-                    "homepage": "https://www.drupal.org/user/2103716"
-                },
-                {
-                    "name": "daniel.bosen",
-                    "homepage": "https://www.drupal.org/user/404865"
-                },
-                {
-                    "name": "Erik Seifert",
-                    "homepage": "https://www.drupal.org/user/161429"
-                },
-                {
-                    "name": "volkerk",
-                    "homepage": "https://www.drupal.org/user/57527"
-                }
-            ],
-            "description": "Adds VG Wort integration using publisher defined keys.",
-            "homepage": "https://www.drupal.org/project/vgwort",
-            "support": {
-                "source": "https://git.drupalcode.org/project/vgwort"
             }
         },
         {
@@ -11915,58 +11429,6 @@
             "homepage": "https://www.drupal.org/project/workbench_menu_access",
             "support": {
                 "source": "https://git.drupalcode.org/project/workbench_menu_access"
-            }
-        },
-        {
-            "name": "drupal/xymatic",
-            "version": "1.0.0-beta5",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/xymatic.git",
-                "reference": "1.0.0-beta5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/xymatic-1.0.0-beta5.zip",
-                "reference": "1.0.0-beta5",
-                "shasum": "b762b225512e358da70bf474918412d8606a9290"
-            },
-            "require": {
-                "drupal/core": "^9 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "1.0.0-beta5",
-                    "datestamp": "1684325656",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "chr.fritsch",
-                    "homepage": "https://www.drupal.org/user/2103716"
-                },
-                {
-                    "name": "daniel.bosen",
-                    "homepage": "https://www.drupal.org/user/404865"
-                },
-                {
-                    "name": "volkerk",
-                    "homepage": "https://www.drupal.org/user/57527"
-                }
-            ],
-            "description": "Xymatic video integration.",
-            "homepage": "https://www.drupal.org/project/xymatic",
-            "support": {
-                "source": "https://git.drupalcode.org/project/xymatic"
             }
         },
         {

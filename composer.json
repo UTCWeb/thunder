@@ -132,6 +132,14 @@
     "conflict": {
         "drupal/drupal": "*"
     },
+    "replace": {
+        "drupal/default_content": "*",
+        "drupal/graphql": "*",
+        "drupal/ivw_integration": "*",
+        "drupal/password_policy": "*",
+        "drupal/xymatic": "*",
+        "drupal/vgwort": "*"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
