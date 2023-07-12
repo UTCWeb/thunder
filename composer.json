@@ -1,6 +1,6 @@
 {
     "name": "utchattanooga/utccloud",
-    "description": "Project template for Thunder projects with composer",
+    "description": "Thunder 7 project for UTCCloud Drupal 10",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -10,10 +10,6 @@
         }
     ],
     "repositories": {
-        "lenient": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/lenient"
-        },
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
