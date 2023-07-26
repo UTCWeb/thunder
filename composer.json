@@ -99,7 +99,7 @@
         "drupal/smart_trim": "^2.1",
         "drupal/social_media_links": "^2.9",
         "drupal/stage_file_proxy": "^2.0",
-        "drupal/superfish": "^1.4",
+        "drupal/superfish": "^1.6",
         "drupal/svg_image": "^3.0",
         "drupal/tablefield": "^2.4",
         "drupal/twig_field_value": "^2.0",
@@ -116,7 +116,7 @@
         "drush/drush": "^11.0",
         "mglaman/composer-drupal-lenient": "^1.0",
         "oomphinc/composer-installers-extender": "^2.0",
-        "thunder/thunder-distribution": "^7.0@STABLE",
+        "thunder/thunder-distribution": "^7.1.x-dev@dev",
         "vlucas/phpdotenv": "^2.4",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
@@ -158,9 +158,6 @@
         },
         "enable-patching": true,
         "patches": {
-            "drupal/superfish": {
-                "Drupal 10 compatibility": "https://www.drupal.org/files/issues/2023-05-17/superfish-d10-compatibility-15053339-9.patch"
-            },
             "drupal/context_entity_field":{
                 "Drupal 10 compatibility": "https://www.drupal.org/files/issues/2023-06-30/3349931-context_entity_field-7.patch"
             },
@@ -174,7 +171,7 @@
             }
         },
         "drupal-lenient": {
-            "allowed-list": ["drupal/superfish", "drupal/context_entity_field", "drupal/block_list_override", "drupal/ckeditor_liststyle"]
+            "allowed-list": ["drupal/context_entity_field", "drupal/block_list_override", "drupal/ckeditor_liststyle"]
         }
     },
     "config": {

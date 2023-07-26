@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7e5cf1f033323c6279746eb5d0008bf",
+    "content-hash": "c3c3bd036f70679069b10bb7da351993",
     "packages": [
         {
             "name": "acquia/blt",
@@ -10260,27 +10260,27 @@
         },
         {
             "name": "drupal/superfish",
-            "version": "1.4.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/superfish.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/superfish-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "d84b900e81c412ef783094a8ef51a79038d24a59"
+                "url": "https://ftp.drupal.org/files/projects/superfish-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "5c3d2e88e64ce9b0c44ea0e55a5c3ec2e6bda430"
             },
             "require": {
                 "drupal/core": "^8 || ^9 || ^10",
-                "mehrpadin/superfish": "~2.0"
+                "mehrpadin/superfish": "~2"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1590438116",
+                    "version": "8.x-1.6",
+                    "datestamp": "1690322107",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10296,6 +10296,20 @@
                     "name": "mehrpadin",
                     "homepage": "https://www.drupal.org/u/mehrpadin",
                     "role": "Maintainer"
+                },
+                {
+                    "name": "Nikolay Lobachev",
+                    "homepage": "https://www.drupal.org/u/lobsterr",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Nick Dickinson-Wilde",
+                    "homepage": "https://www.drupal.org/u/nickdickinsonwilde",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "NickDickinsonWilde",
+                    "homepage": "https://www.drupal.org/user/3094661"
                 }
             ],
             "description": "Adds jQuery Superfish plugin to menu blocks.",
@@ -10888,23 +10902,23 @@
         },
         {
             "name": "drupal/views_bulk_edit",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/views_bulk_edit.git",
-                "reference": "8.x-2.8"
+                "reference": "8.x-2.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_bulk_edit-8.x-2.8.zip",
-                "reference": "8.x-2.8",
-                "shasum": "8600f5688d21d5d98e56b5f8c154997f6cb190c1"
+                "url": "https://ftp.drupal.org/files/projects/views_bulk_edit-8.x-2.9.zip",
+                "reference": "8.x-2.9",
+                "shasum": "db45a8cc9ac629859374b24974eafcef257e4387"
             },
             "require": {
-                "drupal/core": "^9.1 || ^10"
+                "drupal/core": "^9.4 || ^10"
             },
             "require-dev": {
-                "drupal/views_bulk_operations": "~3.0"
+                "drupal/views_bulk_operations": "~4.2.4"
             },
             "suggest": {
                 "drupal/views_bulk_operations": "Get VBO for all the views benefits like batching, ability to select all view results or persistent selection across pages"
@@ -10912,8 +10926,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.8",
-                    "datestamp": "1666257164",
+                    "version": "8.x-2.9",
+                    "datestamp": "1690222256",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10932,6 +10946,10 @@
                 {
                     "name": "Graber",
                     "homepage": "https://www.drupal.org/user/1599440"
+                },
+                {
+                    "name": "joseph.olstad",
+                    "homepage": "https://www.drupal.org/user/1321830"
                 }
             ],
             "description": "Allows bulk edition of entity field values.",
@@ -16990,16 +17008,16 @@
         },
         {
             "name": "thunder/thunder-distribution",
-            "version": "7.1.0",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thunder/thunder-distribution.git",
-                "reference": "74abf5bbc77d101d3814e1ab32e00c3e99970472"
+                "reference": "f0fd5cf5ff925ebef6f3964c3c8519f05a69004e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thunder/thunder-distribution/zipball/74abf5bbc77d101d3814e1ab32e00c3e99970472",
-                "reference": "74abf5bbc77d101d3814e1ab32e00c3e99970472",
+                "url": "https://api.github.com/repos/thunder/thunder-distribution/zipball/f0fd5cf5ff925ebef6f3964c3c8519f05a69004e",
+                "reference": "f0fd5cf5ff925ebef6f3964c3c8519f05a69004e",
                 "shasum": ""
             },
             "require": {
@@ -17014,7 +17032,7 @@
                 "drupal/config_selector": "^2.1",
                 "drupal/config_update": "^1.7 || ^2.0",
                 "drupal/content_lock": "^2.1",
-                "drupal/core-recommended": "~10.1.0@STABLE",
+                "drupal/core-recommended": "~10.1.1",
                 "drupal/crop": "^2.2",
                 "drupal/default_content": "^1.0-alpha7||^2.0@ALPHA",
                 "drupal/diff": "1.1",
@@ -17091,6 +17109,7 @@
             "suggest": {
                 "drupal/search_api_solr": "Provides a Apache Solr backend for the Search API module"
             },
+            "default-branch": true,
             "type": "drupal-profile",
             "extra": {
                 "installer-name": "thunder",
@@ -17137,9 +17156,9 @@
             ],
             "description": "The thunder distribution",
             "support": {
-                "source": "https://github.com/thunder/thunder-distribution/tree/7.1.0"
+                "source": "https://github.com/thunder/thunder-distribution/tree/7.1.x"
             },
-            "time": "2023-07-03T13:58:16+00:00"
+            "time": "2023-07-25T15:19:52+00:00"
         },
         {
             "name": "twig/twig",
@@ -19596,16 +19615,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.1.36",
+            "version": "1.1.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "345f7babd0cfd1ef73bb856673a1cee5a0dbd6e5"
+                "reference": "a40fb539b55d47aeabc308d99b3088a40abcff30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/345f7babd0cfd1ef73bb856673a1cee5a0dbd6e5",
-                "reference": "345f7babd0cfd1ef73bb856673a1cee5a0dbd6e5",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/a40fb539b55d47aeabc308d99b3088a40abcff30",
+                "reference": "a40fb539b55d47aeabc308d99b3088a40abcff30",
                 "shasum": ""
             },
             "require": {
@@ -19680,7 +19699,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.36"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.37"
             },
             "funding": [
                 {
@@ -19696,7 +19715,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-28T20:24:39+00:00"
+            "time": "2023-07-25T14:24:06+00:00"
         },
         {
             "name": "mikemadison13/blt-lando",
@@ -20579,16 +20598,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.26",
+            "version": "9.2.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "443bc6912c9bd5b409254a40f4b0f4ced7c80ea1"
+                "reference": "b0a88255cb70d52653d80c890bd7f38740ea50d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/443bc6912c9bd5b409254a40f4b0f4ced7c80ea1",
-                "reference": "443bc6912c9bd5b409254a40f4b0f4ced7c80ea1",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/b0a88255cb70d52653d80c890bd7f38740ea50d1",
+                "reference": "b0a88255cb70d52653d80c890bd7f38740ea50d1",
                 "shasum": ""
             },
             "require": {
@@ -20644,7 +20663,8 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.26"
+                "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.27"
             },
             "funding": [
                 {
@@ -20652,7 +20672,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-03-06T12:58:08+00:00"
+            "time": "2023-07-26T13:44:30+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -22307,16 +22327,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "8.13.2",
+            "version": "8.13.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "83fb531a75950b6c6c7c37d7813836c3df8fc8d1"
+                "reference": "4b2af2fb17773656d02fbfb5d18024ebd19fe322"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/83fb531a75950b6c6c7c37d7813836c3df8fc8d1",
-                "reference": "83fb531a75950b6c6c7c37d7813836c3df8fc8d1",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/4b2af2fb17773656d02fbfb5d18024ebd19fe322",
+                "reference": "4b2af2fb17773656d02fbfb5d18024ebd19fe322",
                 "shasum": ""
             },
             "require": {
@@ -22356,7 +22376,7 @@
             ],
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/8.13.2"
+                "source": "https://github.com/slevomat/coding-standard/tree/8.13.4"
             },
             "funding": [
                 {
@@ -22368,7 +22388,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-24T10:09:44+00:00"
+            "time": "2023-07-25T10:28:55+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -23255,7 +23275,7 @@
         "drupal/sitemap": 10,
         "drupal/ultimate_cron": 15,
         "drupal/webform": 10,
-        "thunder/thunder-distribution": 0,
+        "thunder/thunder-distribution": 20,
         "acquia/blt-drupal-check": 20,
         "mikemadison13/blt-lando": 20
     },
