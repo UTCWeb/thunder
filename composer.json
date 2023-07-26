@@ -159,7 +159,7 @@
         "enable-patching": true,
         "patches": {
             "drupal/context_entity_field":{
-                "Drupal 10 compatibility": "https://www.drupal.org/files/issues/2023-06-30/3349931-context_entity_field-7.patch"
+                "Drupal 10 compatibility": "https://www.drupal.org/files/issues/2023-07-11/3349931-context_entity_field-9.patch"
             },
             "drupal/block_list_override": {
                 "Drupal 10 compatibility": "https://www.drupal.org/files/issues/2022-12-29/block_list_override-3327993-5.patch"
